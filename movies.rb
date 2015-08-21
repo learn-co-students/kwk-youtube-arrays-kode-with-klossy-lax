@@ -21,5 +21,10 @@ end
 #4. Define a method view_queue that uses the each method to iterate over the array of movies
 # This method should use puts to print out "You will watch <movie name>" for every movie in the list
 #This method should accept an array as an argument (the movie queue)
+def view_queue(queue)
+	queue.each do |movie|
+		puts "You will watch #{movie}"
+	end
+end
 
 
