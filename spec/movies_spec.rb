@@ -21,7 +21,7 @@ describe 'movies' do
 
   describe '#update_queue' do
     it 'adds movies to the end of your queue' do
-      expect(update_queue(@movies, "The Grand Budapest Hotel")).to eq ["Trainwreck", "Inside Out", "Silver Linings Playbook", "Pitch Perfect 2", "Hot Pursuit", "Grand Budapest Hotel" ]
+      expect(update_queue(@movies, "The Grand Budapest Hotel")).to eq ["Minions", "Trainwreck", "Inside Out", "Silver Linings Playbook", "Pitch Perfect 2", "Hot Pursuit", "The Grand Budapest Hotel"]
     end
   end
 
