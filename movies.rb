@@ -14,7 +14,10 @@ end
 
 #3. Define a method update_queue that returns the updated array
 # This method takes two arguments (the array of movies and the movie you want to add to the queue)
-
+def update_queue(queue, movie)
+	queue << movie
+	queue
+end
 #4. Define a method view_queue that uses the each method to iterate over the array of movies
 # This method should use puts to print out "You will watch <movie name>" for every movie in the list
 #This method should accept an array as an argument (the movie queue)
