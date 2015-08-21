@@ -14,7 +14,7 @@ describe 'movies' do
 
   describe '#watch_move' do
     it 'removes the first movie because you watched it and returns the modified array' do
-      expect(watch_movie(@movies)).to eq("3 cups")
+      expect(watch_movie(@movies)).to eq(["Trainwreck", "Inside Out", "Silver Linings Playbook", "Pitch Perfect 2", "Hot Pursuit"])
     end
   end
 
