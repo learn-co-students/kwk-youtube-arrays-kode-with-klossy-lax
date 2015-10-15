@@ -10,7 +10,7 @@ Open this lab in Nitrous. Run `learn` in terminal to run the Rspec tests. Use th
 
 ###Step 1: 
 
-Define a method `first_movie` that return the first movie in the queue. This method should accept an array as an argument (the movie queue)
+Define a method `first_movie` that returns the first movie in the queue. This method should accept an array as an argument (the movie queue)
 
 ####Step 2: 
 
