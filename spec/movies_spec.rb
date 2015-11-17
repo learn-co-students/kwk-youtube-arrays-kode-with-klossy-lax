@@ -27,7 +27,7 @@ describe 'movies' do
 
   describe '#view_queue' do
     it 'prints out the movies in the queue using the each method' do
-      output = capture_stdout { ingredients(@movies) }
+      output = capture_stdout { view_queue(@movies) }
       expect(output).to eq "You will watch Minions\nYou will watch Trainwreck\nYou will watch Inside Out\nYou will watch Silver Linings Playbook\nYou will watch Pitch Perfect 2\nYou will watch Hot Pursuit\n"
     end
   end
