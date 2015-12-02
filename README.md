@@ -23,3 +23,5 @@ Define a method `update_queue` that returns the updated array. This method takes
 ####Step 4:
 
 Define a method `view_queue` that uses the each method to iterate over the array of movies. This method should use puts to print out "You will watch [movie name]" for every movie in the list. This method should accept an array as an argument (the movie queue).
+
+<a href='https://learn.co/lessons/hs-intro-software-engineering-movie-arrays' data-visibility='hidden'>View this lesson on Learn.co</a>
