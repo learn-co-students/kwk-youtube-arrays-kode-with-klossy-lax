@@ -1,12 +1,10 @@
-#so i guess if you code this in learn IDE, the playlist is automatically generated through spec but in nitrous I guess I have to make the playlist myself AIGHT
-
-playlist = ["Kode With Klossy is the BEST", "The Public School Education System Mess", "Why Bananas Are Cooler Than Apples", "Viola Jokes Aren't Funny", "Stromae Needs To Create Another Album"]
+playlist = ["Wiz Khalifa - See You Again ft. Charlie Puth", "Mark Ronson - Uptown Funk ft. Bruno Mars", "Taylor Swift - Blank Space", "Justin Bieber - Sorry", "How To Apply | Kode With Klossy"]
 
 #1. Define a method first_video that return the first video in the playlist
 # This method should accept an array as an argument (the video playlist)
 
 def first_video(array)
-  puts array.first
+  array.first
 end
 
 first_video(playlist)
@@ -16,7 +14,7 @@ first_video(playlist)
 
 def watch_video(array)
   array.shift
-  puts array
+  array
 end
 
 watch_video(playlist)
@@ -35,7 +33,7 @@ puts update_playlist(playlist, "Water is Wet")
 #This method should accept an array as an argument (the video playlist)
 
 def view_playlist(array)
-  array.each{|item| puts "You will watch #{item}."}
+  array.each{|item| puts "You will watch #{item}"}
 end
 
 view_playlist(playlist)
